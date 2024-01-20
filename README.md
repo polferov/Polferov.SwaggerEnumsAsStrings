@@ -4,7 +4,15 @@ A simple library to convert/display enums as strings in Swagger UI.
 
 ## Installation
 
-TODO
+Install the NuGet package:
+
+```bash
+# e.g. using dotnet CLI
+dotnet add package Polferov.SwaggerEnumsAsStrings
+```
+
+or visit
+the [Polferov.SwaggerEnumsAsStrings NuGet page](https://www.nuget.org/packages/Polferov.SwaggerEnumsAsStrings/).
 
 ## Usage
 
