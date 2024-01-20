@@ -8,9 +8,13 @@ namespace Polferov.SwaggerEnumsAsStrings;
 
 public static class SwaggerGenOptionsExtensions
 {
-    public static SwaggerGenOptions AddEnumsAsStringsFilter(this SwaggerGenOptions options)
+    /// <summary>
+    /// Registers the <see cref="EnumsAsStringsFilter"/> with SwaggerGen
+    /// </summary>
+    public static SwaggerGenOptions AddEnumsAsStringsFilter(this SwaggerGenOptions options,
+        EnumsAsStringsFilterOptions? filterOptions = null)
     {
-        options.SchemaFilter<EnumsAsStringsFilter>();
+        options.SchemaFilter<EnumsAsStringsFilter>(filterOptions ?? new EnumsAsStringsFilterOptions());
         return options;
     }
 }
