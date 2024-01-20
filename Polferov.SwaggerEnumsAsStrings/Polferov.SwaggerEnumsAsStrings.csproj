@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
         <LangVersion>12</LangVersion>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        
+        <Version>0.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
