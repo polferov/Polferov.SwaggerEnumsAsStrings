@@ -13,8 +13,17 @@ steps:
     includesymbols: true
     includesource: true
     versioningScheme: 'off'
+    verbosityPack: 'Normal'
+  
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'nuget'
+    publishLocation: 'Container'
+
 - task: NuGetCommand@2
   displayName: push
+  continueOnError: true
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
