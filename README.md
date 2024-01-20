@@ -9,6 +9,8 @@ TODO
 ## Usage
 
 ```csharp
+using Polferov.SwaggerEnumsAsStrings;
+
 builder.Services.AddSwaggerGen(c =>
 {
     //...
