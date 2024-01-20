@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polferov.SwaggerEnumsAsStrings", "Polferov.SwaggerEnumsAsStrings\Polferov.SwaggerEnumsAsStrings.csproj", "{472C2213-D382-4E75-8529-5464A3408D77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{2A8DCC1A-7282-44FA-82C7-CB5C76323173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{472C2213-D382-4E75-8529-5464A3408D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{472C2213-D382-4E75-8529-5464A3408D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{472C2213-D382-4E75-8529-5464A3408D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A8DCC1A-7282-44FA-82C7-CB5C76323173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8DCC1A-7282-44FA-82C7-CB5C76323173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8DCC1A-7282-44FA-82C7-CB5C76323173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8DCC1A-7282-44FA-82C7-CB5C76323173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
